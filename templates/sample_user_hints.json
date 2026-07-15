@@ -1,0 +1,7 @@
+{
+  "id": { "type": "uuid" },
+  "age": { "type": "int_range", "min": 18, "max": 65 },
+  "score": { "type": "float_range", "min": 0, "max": 100 },
+  "address.city": { "type": "enum", "values": ["Seoul", "Busan", "Jeju"] },
+  "tags[]": { "type": "enum", "values": ["admin", "user", "guest", "vip"] }
+}
