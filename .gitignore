@@ -21,3 +21,7 @@ Thumbs.db
 # Env files
 .env
 .env.local
+
+# Generated dummy data output
+output/*
+!output/.gitkeep
